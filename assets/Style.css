@@ -198,7 +198,7 @@ footer {
 
 /* TITLE */
 .container h1 {
-  font-size: 36px; /* cleaner, less overwhelming */
+  font-size: 30px; /* cleaner, less overwhelming */
   font-weight: 800;
   line-height: 1.25;
   margin-bottom: 30px;
@@ -280,9 +280,8 @@ ul li a:hover {
 
 .hero-image img {
   width: 100%;
-  height: 420px;
-  object-fit: cover;
-  border-radius: 10px;
+  height: auto;
+  object-fit: contain; /* shows full image */
 }
 
 /* MATCH TEXT WIDTH FEEL */
