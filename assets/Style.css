@@ -180,3 +180,142 @@ footer {
     display: none;
   }
 }
+/* BLOG PAGE */
+
+/* BLOG PAGE CLEAN FIX */
+
+.container {
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 20px 40px;
+}
+
+/* MAIN CONTENT WIDTH (ONE SOURCE OF TRUTH) */
+.container article {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+/* TITLE */
+.container h1 {
+  font-size: 36px; /* cleaner, less overwhelming */
+  font-weight: 800;
+  line-height: 1.25;
+  margin-bottom: 30px;
+  color: #46d7c7;
+}
+
+/* TEXT ELEMENTS ALIGN */
+.container h2,
+.container ul,
+.container p {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* PARAGRAPHS */
+.container p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #cfd6ff;
+}
+
+/* HERO IMAGE MATCHES CONTENT */
+.container .hero-image {
+  max-width: 920px;
+  margin: 40px auto;
+}
+/* SECTION SPACING */
+
+.container h2 {
+  margin-top: 50px; /* space BEFORE each section */
+  margin-bottom: 15px;
+  font-size: 24px;
+  color: #46d7c7;
+}
+
+.container p {
+  margin-bottom: 20px; /* space between paragraphs */
+}
+
+.container ul {
+  margin-bottom: 25px;
+}
+
+.back {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #46d7c7;
+  text-decoration: none;
+}
+
+.back:hover {
+  text-decoration: underline;
+}
+/* TABLE OF CONTENT LINKS */
+
+ul li a {
+  color: #ffffff; /* makes text white */
+  text-decoration: underline; /* keeps underline */
+}
+
+ul li a:visited {
+  color: #ffffff; /* prevents purple after click */
+}
+
+ul li a:hover {
+  color: #46d7c7; /* optional hover effect */
+}
+
+/* BLOG IMAGE */
+
+/* HERO IMAGE */
+
+.hero-image {
+  position: relative;
+  width: 100%;
+  margin: 40px auto;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* MATCH TEXT WIDTH FEEL */
+.container .hero-image {
+  max-width: 1000px;
+}
+
+/* OVERLAY TEXT */
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  color: #fff;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+
+  max-width: 75%;
+  line-height: 1.4;
+
+  background: rgba(0, 0, 0, 0.5); /* cleaner */
+  padding: 18px 24px;
+  border-radius: 8px;
+}
+
+/* CAPTION */
+
+.image-caption {
+  text-align: left;
+  font-size: 14px;
+  color: #9aa3ff;
+  margin-top: 8px;
+}
