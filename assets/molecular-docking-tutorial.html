@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Molecular Docking Tutorial : A Complete Beginner's Guide to Computational Drug Discovery</title>
+    <meta name="description" content="Follow this molecular docking tutorial to learn the complete workflow for predicting how drug molecules bind to protein targets using free and open-source computational tools." />
+    <meta name="keywords" content="molecular docking tutorial, molecular docking guide, AutoDock Vina tutorial, docking for beginners, computational drug discovery tutorial, protein ligand docking guide" />
+    <link rel="stylesheet" href="../assets/Style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <a href="../index.html" class="back">Back to Home</a>
+      <article>
+        <h1>Molecular Docking Tutorial : A Complete Beginner's Guide to Computational Drug Discovery</h1>
+        <p>Molecular docking is one of the most widely used techniques in computational drug discovery, predicting how small molecules bind to protein targets to guide drug design. This molecular docking tutorial provides a complete, step-by-step guide for beginners, covering everything from obtaining protein structures to interpreting docking results. This molecular docking tutorial uses freely available tools so that anyone can follow along regardless of their computational resources.</p>
+        <br />
+        <p>Whether you are a biologist wanting to understand computational methods, a chemist exploring drug design, or a student learning bioinformatics, this molecular docking tutorial will give you the practical skills to run your own docking experiments. By the end of this molecular docking tutorial, you will be able to set up, run, and interpret molecular docking calculations for any protein-ligand system.</p>
+        <div class="hero-image"><img src="../assets/Images/blogs/Put$$.png" alt="Molecular Docking Tutorial : A Complete Beginner's Guide to Computational Drug Discovery" /></div>
+        <p class="image-caption">Molecular Docking Tutorial : A Complete Beginner's Guide to Computational Drug Discovery</p>
+        <div class="toc"><h2>Table of Contents</h2><ul><li><a href="#overview">Molecular Docking Overview</a></li><li><a href="#preparation">Structure Preparation in This Molecular Docking Tutorial</a></li><li><a href="#running">Running the Docking Calculation</a></li><li><a href="#interpretation">Interpreting Results in This Molecular Docking Tutorial</a></li></ul></div>
+        <h2 id="overview">Molecular Docking Overview</h2>
+        <p>Molecular docking predicts the preferred binding orientation and estimated binding affinity of a small molecule (ligand) within the binding site of a protein (receptor). This molecular docking tutorial focuses on AutoDock Vina, one of the most widely used and cited free docking programs. Molecular docking uses a scoring function to evaluate binding poses and ranks them by estimated binding energy, with more negative values indicating stronger predicted binding.</p>
+        <ul>
+          <li>Binding pose prediction for drug-protein complexes</li>
+          <li>Scoring function evaluation of binding energy</li>
+          <li>Ranking of poses by predicted binding affinity</li>
+          <li>Virtual screening of compound libraries against targets</li>
+        </ul>
+
+        <h2 id="preparation">Structure Preparation in This Molecular Docking Tutorial</h2>
+        <p>This molecular docking tutorial covers structure preparation as the most critical step. For the protein: download the structure from the RCSB Protein Data Bank, remove water molecules and non-essential ligands, add hydrogen atoms, and assign Gasteiger charges using AutoDockTools. For the ligand: draw or download the structure, generate a 3D conformation using Open Babel, and add hydrogen atoms and partial charges. Poor structure preparation is the most common cause of poor docking results.</p>
+        <ul>
+          <li>Download protein structure from RCSB PDB</li>
+          <li>Remove waters and add hydrogens to protein</li>
+          <li>Generate ligand 3D structure with Open Babel</li>
+          <li>Assign partial charges to both protein and ligand</li>
+        </ul>
+        <div class="hero-image"><img src="../assets/Images/blogs/Pic 2.png" alt="Molecular Docking Tutorial : A Complete Beginner's Guide to Computational Drug Discovery" /></div>
+        <p class="image-caption">Molecular Docking Tutorial : A Complete Beginner's Guide to Computational Drug Discovery</p>
+
+        <h2 id="running">Running the Docking Calculation</h2>
+        <p>In this molecular docking tutorial, the docking calculation is set up by defining a grid box around the binding site using AutoDockTools or a text editor. The grid box center and dimensions must encompass the entire binding site with some margin. Run AutoDock Vina from the command line with the prepared protein and ligand files and the grid box parameters. Vina will output the top-ranked binding poses with their estimated binding affinities.</p>
+        <ul>
+          <li>Define grid box around the protein binding site</li>
+          <li>Set grid box center and dimensions in config file</li>
+          <li>Run AutoDock Vina from the command line</li>
+          <li>Collect output poses and binding affinity scores</li>
+        </ul>
+
+        <h2 id="interpretation">Interpreting Results in This Molecular Docking Tutorial</h2>
+        <p>This molecular docking tutorial explains result interpretation: examine the top-ranked pose in PyMOL or UCSF Chimera; identify hydrogen bonds, hydrophobic contacts, and pi-stacking interactions with key binding site residues; compare the docked pose with any known co-crystal structure if available; use PLIP (Protein-Ligand Interaction Profiler) for automated interaction analysis. Validate your docking setup by re-docking a known co-crystal ligand and checking RMSD against the experimental pose.</p>
+        <ul>
+          <li>Visualize top-ranked pose in PyMOL or UCSF Chimera</li>
+          <li>Identify key binding interactions with active site residues</li>
+          <li>Use PLIP for automated interaction profiling</li>
+          <li>Validate by re-docking known co-crystal ligands</li>
+        </ul>
+
+      </article>
+      <nav class="blog-nav"><a href="machine-learning-for-drug-discovery.html" class="blog-nav-btn">&larr; Newer Post</a><a href="molecular-dynamics-simulation-software.html" class="blog-nav-btn">Older Post &rarr;</a></nav>
+    </div>
+    <div class="side-nav"><a href="machine-learning-for-drug-discovery.html" class="side-nav-btn" title="Newer Post">&#8593;</a><a href="molecular-dynamics-simulation-software.html" class="side-nav-btn" title="Older Post">&#8595;</a></div>
+  </body>
+</html>
